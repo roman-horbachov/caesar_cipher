@@ -8,9 +8,6 @@
 Для встановлення GEM локально виконайте:
 
 ```bash
-cd caesar_cipher
-```
-```bash
 gem build caesar_cipher.gemspec
 ```
 ```bash
@@ -45,10 +42,10 @@ Ctrl + D
 Для запуску тестів виконайте:
 
 ```bash
-cd caesar_cipher
+bundle exec rspec
 ```
 ```bash
-bundle exec rspec
+ruby test_caesar_cipher.rb  
 ```
 
 ## Структура файлів
